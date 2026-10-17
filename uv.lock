@@ -108,7 +108,7 @@ wheels = [
 [[package]]
 name = "llm-call-practice"
 version = "0.1.0"
-source = { editable = "." }
+source = { virtual = "." }
 dependencies = [
     { name = "groq" },
     { name = "python-dotenv" },
